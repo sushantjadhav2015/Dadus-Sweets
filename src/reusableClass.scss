@@ -1,0 +1,12 @@
+
+@mixin scrolling-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: $font-family-global;
+  color: #333;
+  background-color: #ffc107;
+  // padding: 10px;
+  // white-space: nowrap;
+  overflow: hidden;
+  // border: 1px solid #ccc;
+}

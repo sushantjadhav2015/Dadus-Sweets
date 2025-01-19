@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.css";
+@import "reusableClass";
+
+// color veriables
+$primary-color: #fff;
+$font-family-global:'Arial', sans-serif;
+
+body {
+  font-family: $font-family-global;
+}
+
+.sign-out {
+  background-color: purple;
+}
+
+.login {
+  background-color: orange;
+}
+
+.navbar {
+  background-color: $primary-color;
+}
+
+main {
+  .scrolling-text {
+    @include scrolling-text;
+  }
+}

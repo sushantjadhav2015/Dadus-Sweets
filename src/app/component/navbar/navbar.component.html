@@ -1,0 +1,49 @@
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0">
+    <!-- navbar start -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/dadus-logo.jpg" alt="" width="240" height="80" class="d-inline-block align-text-center">
+        <!-- Dadus Sweet Emporio -->
+      </a>
+      <!-- <a class="navbar-brand" href="#"></a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- offcanvas for navbar -->
+      <div class="sidebar offcanvas offcanvas-start text-bg-light" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <!-- offcanvas name -->
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dadus Sweet Emporio</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none border-0" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" routerLink="#" routerLinkActive="activePage"
+                ariaCurrentWhenActive="page">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" routerLink="/about" routerLinkActive="activePage"
+                ariaCurrentWhenActive="page">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" routerLink="/contact" routerLinkActive="activePage"
+                ariaCurrentWhenActive="page">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+            <a class="text-white text-decoration-none px-3 py-1 rounded-4 login" routerLink="/contact">Login</a>
+            <a class="text-white text-decoration-none px-3 py-1 rounded-4 sign-out" routerLink="/contact">Sign
+              out</a>
+          </div>
+          <!-- <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form> -->
+        </div>
+      </div>
+    </div>
+  </nav>
